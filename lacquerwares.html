@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacquerwares</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .logo img {
+            max-height: 140px;
+            width: 140px;
+            margin-left: 50px;
+            transform: translate(-1150px, 34px)
+        }
+         * {
+            box-sizing: border-box;
+        }
+        .row::after {
+            clear:both;
+            content:"";
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float:left;
+            padding:5px;
+        }  
+        
+        /*Mobile phone*/
+        [class*="col-"] {
+            width:100%;
+         }
+           /*Desktop*/
+           @media screen and (min-width:768px){
+            .col-1 {width:8.33%;}
+            .col-2 {width:16.66%;}
+            .col-3 {width:25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+         }
+         .col-4 {
+            text-align: center;
+         }
+         .row {
+            margin-bottom: 10px;
+            border: 1px solid black;
+            margin-top: 90px;
+         }
+        /* Style the header */
+        #banner {
+            background-color: rgb(187, 140, 108);
+            text-align: right;
+            padding: 0px 0;
+            position: fixed;
+            top: -34px;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+        nav ul {
+            list-style-type: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 10px 25px;
+        }
+        .col-10 img {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <nav>
+            <ul>
+                <!--block-->
+        <nav>
+        <div class="logo">
+            <img src="even_better_logo.jpg" alt="logo">
+        </div>
+    </nav>
+        <nav>
+            <ul>
+                <li><a href="homepage.html"><b>Home</b></a></li>
+                <li><a href="about_us.html"><b>About</b></a></li>
+                <li><a href="costumer_review.html"><b>Review</b></a></li>
+                <li><a href="sign_in.html"><b>Sign in</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Nav bar-->
+    <!--video-->
+    <div class="row" style="display:flex;justify-content: center;">
+        <div class="col-10">
+            <div class="row1">
+                <div class="col-4">
+                    <img src="Lacquerwares/lacquwear_bowl.jpeg" alt="lacquerware_bowl" width="250px" height="250px">
+                    <p>Bagan lacquerware bowl</p>
+                    <p>15000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/burmese_lacquwear_set.jpg.webp" alt="burmese_lacquwear_set" width="250px" height="250px">
+                    <p>Burmese lacquwear set of 3 bowls (10.3 cm)</p>
+                    <p>12000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/Burmese Food Storage Lacquerware Offering-Stupa-Shaped-Traditional-Home-Decor.jpg" alt="stupa" width="250px" height="250px">
+                    <p>Burmese Food Storage Lacquerware Offering Stupa Shaped Traditional Home Decor</p>
+                    <p>84500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="col-4">
+                    <img src="Lacquerwares/s-l1600.png" alt="dish" width="250px" height="250px">
+                    <p>Antique burmese black lacquerware gold elephant motif serving tray & 6 trivets</p>
+                    <p>92500</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/burmese_lacquwear_set_colors.jpeg" alt="bagan_umbrella_green" width="250px" height="250">
+                    <p>Traditional bagan lacquerware set of 3 bowls</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/authentic_round_lacquwear_food_container.jpg" alt="food_container" width="250px" height="250px">
+                    <p>Authentic lacquwear food container</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col-4">
+                    <img src="Lacquerwares/burmese- traditional-lacquerware-pickle-tea-leaves-serving-plate.jpg" alt="pickle-tea-leaves-serving-plate" width="250px" height="250px">
+                    <p>Traditional bagan lacquerware pickle tea leaves serving plate</p>
+                    <p>15000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/Lacquerware Lamp Myanmar Food Offering Traditional-Stupa-Shaped-Hand-Painted.jpg" alt="lamp" width="250px" height="250px">
+                    <p>Lacquerware Lamp Myanmar Food Offering Traditional Stupa Shaped Hand Painted</p>
+                    <p>96000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/lacquerware_plate.jpg" alt="plate" width="240px" height="250px">
+                    <p>Antique Burmese black lacquerware plate</p>
+                    <p>20000</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+      </div>
+    </div>
+</body>
+</html>

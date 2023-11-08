@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="even_better_logo.jpg">
+    <style>
+        .logo img {
+            max-height: 140px;
+            width: 140px;
+            margin-left: 50px;
+            transform: translate(-1280px, 34px)
+
+        }
+         * {
+            box-sizing: border-box;
+        }
+        .row::after {
+            clear:both;
+            content:"";
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float:left;
+            padding:5px;
+        }  
+        
+        /*Mobile phone*/
+        [class*="col-"] {
+            width:100%;
+         }
+           /*Desktop*/
+           @media screen and (min-width:768px){
+            .col-1 {width:8.33%;}
+            .col-2 {width:16.66%;}
+            .col-3 {width:25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+         }
+         .col-4 {
+            text-align: center;
+         }
+         .row {
+            margin-bottom: 20px;
+            border: 1px solid black;
+            margin-top: 20px;
+         }
+        /* Style the header */
+        #banner {
+            background-color: rgb(187, 140, 108);
+            text-align: right;
+            padding: 0px 0;
+            position: fixed;
+            top: -30px;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+        nav ul {
+            list-style-type: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 10px 25px;
+        }
+        .txt1 {
+            position: absolute; 
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -400%);
+            color: rgb(255, 255, 255);
+        }
+        .col-10 img {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <nav>
+            <ul>
+                <!--block-->
+        <nav>
+        <div class="logo">
+            <a href="finale.html"><img src="even_better_logo.jpg" alt="logo"></a>
+        </div>
+    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="finale.html"><b>About</b></a></li>
+                <li><a href="review.html"><b>Review</b></a></li>
+                <li><a href="sign_inn.html"><b>Sign in</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <div class="iframe">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/DX48mJjL7oU?si=kOnhEEVmjzcc3Sl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2 class="txt1">Hello and welcome to BG Buy</h2>
+        </div>
+    </div>
+    <!--Nav bar-->
+    <!--video-->
+      <div class="row" style="display:flex;justify-content: center;">
+        <div class="col-10">
+            <div class="row1">
+                <div class="col-4">
+                    <img src="Bagan_toys/tumbling_kelly.jpg.webp" alt="bagan_toys" width="250px" height="250px">
+                    <p>Tumbling kellies set of 2</p>
+                    <p>6500 Kyat</p>
+                    <button><a href="payment.html">Buy now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/burmese_signed_gold_leaf_lacquwear_bowl.jpg" alt="lacquerwarebowl" width="250px" height="250px">
+                    <p>Bagan style gold leaf lacquerware bowl</p>
+                    <p>75000 Kyat</p>
+                    <button><a href="payment.html">Buy now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/Lacquerware Lamp Myanmar Food Offering Traditional-Stupa-Shaped-Hand-Painted.jpg" alt="lacquerware_offering_bowl" width="250px" height="250px">
+                    <p>early 20th century stlye buddhist lacquerware offering bowl from bagan</p>
+                    <p>120000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col-4">
+                    <img src="Lacquerwares/burmese- traditional-lacquerware-pickle-tea-leaves-serving-plate.jpg" alt="tea_leaves_plate" width="250px" height="250px">
+                    <p>traditional bagan tea leaves plate</p>
+                    <p>25000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Image/buddha_statue.jpg" alt="longyi" width="250px" height="250px">
+                    <p>Buddha statue (30 cm)</p>
+                    <p>90000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Image/Panbu.jpeg" alt="panbu" width="250px" height="250px">
+                    <p>wood sculptures</p>
+                    <p>35000 Kyat per statue</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="col-4">
+                    <img src="sand_painting/sand_painting_foot.webp" alt="sand_painting4" width="250px" height="250px">
+                    <p>Sand painting of Buddha's foot</p>
+                    <p>98000 Kyat</p>
+                    <button><a href="sand_paintings.html">Buy now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Image/bagan_umbrella_green.jpeg" alt="bagan_umbrella_green" width="250px" height="250">
+                    <p>Bagan umbrella (green)</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Image/bagan_umbrella_blue.jpeg" alt="bagan_umbrella_blue" width="250px" height="250px">
+                    <p>Bagan umbrella (blue)</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col-4">
+                    <img src="Lacquerwares/lacquwear_bowl.jpeg" alt="lacquerware_bowl" width="250px" height="250px">
+                    <p>Bagan lacquerware bowl</p>
+                    <p>15000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/burmese_lacquwear_set.jpg.webp" alt="burmese_lacquwear_set" width="250px" height="250px">
+                    <p>Burmese lacquwear set of 3 bowls (10.3 cm)</p>
+                    <p>12000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/Burmese Food Storage Lacquerware Offering-Stupa-Shaped-Traditional-Home-Decor.jpg" alt="stupa" width="250px" height="250px">
+                    <p>Burmese Food Storage Lacquerware Offering Stupa Shaped Traditional Home Decor</p>
+                    <p>84500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="col-4">
+                    <img src="Lacquerwares/s-l1600.png" alt="dish" width="250px" height="250px">
+                    <p>Antique burmese black lacquerware gold elephant motif serving tray & 6 trivets</p>
+                    <p>92500</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/burmese_lacquwear_set_colors.jpeg" alt="bagan_umbrella_green" width="250px" height="250">
+                    <p>Traditional bagan lacquerware set of 3 bowls</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Lacquerwares/authentic_round_lacquwear_food_container.jpg" alt="food_container" width="250px" height="250px">
+                    <p>Authentic lacquwear food container</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+      </div>
+    </div>
+    <footer style="text-align: center; background-color: rgb(187, 140, 108);">
+        <div class="flex-container4">
+            <hr>
+            <div class="footer">
+            <h1>Like to say something?</h1>
+            <h2>Email us</h2>
+    <label for="Email">Email</label><br>
+    <input type="Email" name="Email" placeholder="Email"><br><br>
+    <label for="Massage">Massage</label><br>
+    <input type="Massage" name="Massage" placeholder="Massage"><br><br>
+        <button type="send">Send</button>
+    </div>
+        <p>Copyright @ 2023 BG Buy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

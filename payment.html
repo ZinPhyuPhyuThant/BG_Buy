@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+   <style>
+        #banner {
+    background-color: rgb(229, 189, 162);
+   padding: 10px 0;
+   text-align: left;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 100;
+    }
+    nav ul {
+    list-style-type: none;
+   }
+   nav ul li {
+    display: inline;
+    margin-right: 20px;
+   }
+   nav ul li:last-child {
+    margin-right: 0;
+   }
+   nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 25px;
+   }
+    .form{
+
+        background-color: rgb(176, 137, 110);
+        padding: 30px;
+        margin-top: 100px;
+        margin-left: 350px;
+        width: 35%;
+        border-radius: 20px;
+    }
+    .input{
+        width: 100px;
+        height: 16px;
+        border-radius: 7px;
+        padding: 5px;
+    }
+   .button{
+        width: 90px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 16px;
+        }
+   </style>
+</head>
+<body>
+    <div id="banner">
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about_us.html"><b>About</b></a></li>
+                <li><a href="payment.html"><b>Payment</b></a></li>
+                <li><a href="review.html"><b>Review</b></a></li>
+                <li><a href="sign_inn.html"><b>Sign in</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="form">
+    <h1>Payment Form</h1>
+    <p>Required</p>
+    <p>Name: * <input type="text" name="name" required></p>
+    <p>
+        <p>Address: <input name="address" id="address" cols="100" row="8"></p>
+        <p>Email: * <input type="email" id="email" required></p>
+        <p>
+            Pincode: * <input type="Number" name="pincode" id="pincode">
+        </p>
+   
+        <h2>Payment Information</h2>
+        <p>
+            CARD TYPE: *
+            <select  name="card_type" id="card_type" required>
+                <option value="">--select a card type</option>
+                <option value="Visa">Visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Paypal">Paypal</option>
+                <option value="other">other</option>
+            </select>
+        </p>
+        <p>
+            Card Number * <input type="number" name="card_number" id="card_number">
+        </p>
+        <p>Expiration Dates: * <input type="date" name="exp_date"></p>
+        <p>
+            CVV * <input type="password" name="cvv" id="cvv">
+        </p>
+        <p>
+            <div class="button">
+                <button type="submit"><a href="thank_you.html">PAY NOW</a></button>
+            </div>
+        </p>
+    </p>
+</div>
+</body>
+</html>

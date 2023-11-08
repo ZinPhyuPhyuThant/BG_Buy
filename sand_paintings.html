@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sand Paninting</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .logo img {
+            max-height: 140px;
+            width: 140px;
+            margin-left: 50px;
+            transform: translate(-1150px, 34px)
+        }
+         * {
+            box-sizing: border-box;
+        }
+        .row::after {
+            clear:both;
+            content:"";
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float:left;
+            padding:5px;
+        }  
+        
+        /*Mobile phone*/
+        [class*="col-"] {
+            width:100%;
+         }
+           /*Desktop*/
+           @media screen and (min-width:768px){
+            .col-1 {width:8.33%;}
+            .col-2 {width:16.66%;}
+            .col-3 {width:25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+         }
+         .col-4 {
+            text-align: center;
+         }
+         .row {
+            margin-bottom: 20px;
+            border: 1px solid black;
+            margin-top: 20px;
+         }
+        /* Style the header */
+        #banner {
+            background-color: rgb(187, 140, 108);
+            text-align: right;
+            padding: 0px 0;
+            position: fixed;
+            top: -34px;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+        nav ul {
+            list-style-type: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 10px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <nav>
+            <ul>
+                <!--block-->
+        <nav>
+        <div class="logo">
+            <img src="even_better_logo.jpg" alt="logo">
+        </div>
+    </nav>
+        <nav>
+            <ul>
+                <li><a href="homepage.html"><b>Home</b></a></li>
+                <li><a href="about_us.html"><b>About</b></a></li>
+                <li><a href="costumer_review.html"><b>Review</b></a></li>
+                <li><a href="sign_in.html"><b>Sign in</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Nav bar-->
+    <!--video-->
+    <div class="row" style="display:flex;justify-content: center;">
+        <div class="col-10">
+            <div class="row1">
+                <div class="col-4">
+                    <img src="sand_painting/Burmese-zodiac-sand-painting.jpeg" alt="zodiac" width="250px" height="250px">
+                    <p>Bagan zodiac signs sand painting</p>
+                    <p>6500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="sand_painting/evenmorepeopleandelephants.jpg" alt="evenmorepeopleandelephants" width="250px" height="250px">
+                    <p>lacquerware bowl</p>
+                    <p>38500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="sand_painting/sand_painting_ele&hu.jpg" alt="elephant_and_human" width="250px" height="250px">
+                    <p>early 20th century stlye buddhist lacquerware offering bowl from bagan</p>
+                    <p>85000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col-4">
+                    <img src="sand_painting/sand_painting_foot.webp" alt="Buddha's_foot" width="250px" height="250px">
+                    <p>Bagan sand painting of Buddha's foot</p>
+                    <p>25000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="sand_painting/sand_painting_white_elephant.jpg" alt="white_elephant" width="250px" height="250px">
+                    <p>Buddha statue (30 cm)</p>
+                    <p>90000 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="sand_painting/Buddhist_sand_painting.jpg.webp" alt="buddhist_sand_painting" width="250px" height="250px">
+                    <p>Buddhist sand painting</p>
+                    <p>35000 Kyat per statue</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="col-4">
+                    <img src="Image/sand_painting4.jpg.webp" alt="sand_painting4" width="250px" height="250px">
+                    <p>sand paintings</p>
+                    <p>19000 Kyat per painting</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Image/bagan_umbrella_green.jpeg" alt="bagan_umbrella_green" width="250px" height="250">
+                    <p>Bagan umbrella (green)</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+                <div class="col-4">
+                    <img src="Image/bagan_umbrella_blue.jpeg" alt="bagan_umbrella_blue" width="250px" height="250px">
+                    <p>Bagan umbrella (blue)</p>
+                    <p>32500 Kyat</p>
+                    <button><a href="payment.html">Buy Now</a></button>
+                </div>
+            </div>
+      </div>
+    </div>
+</body>
+</html>

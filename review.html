@@ -1,0 +1,249 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>BG|Customer </title>
+<link rel="icon" type="image/x-icon" href="even_better_logo.jpg">
+<style>
+    .logo img {
+        max-height: 140px;
+        width: 140px;
+        margin-left: 50px;
+        transform: translate(-1270px, 30px)
+
+    }
+     * {
+        box-sizing: border-box;
+    }
+    .row::after {
+        clear:both;
+        content:"";
+        display: table;
+    }
+    
+    [class*="col-"] {
+        float:left;
+        padding:5px;
+    }  
+    
+    /*Mobile phone*/
+    [class*="col-"] {
+        width:100%;
+     }
+       /*Desktop*/
+       @media screen and (min-width:768px){
+        .col-1 {width:8.33%;}
+        .col-2 {width:16.66%;}
+        .col-3 {width:25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+     }
+     .col-4 {
+        text-align: center;
+     }
+     .row {
+        margin-bottom: 20px;
+        border: 1px solid black;
+        margin-top: 20px;
+     }
+    /* Style the header */
+    #banner {
+        background-color: rgb(187, 140, 108);
+        text-align: right;
+        padding: 0px 0;
+        position: fixed;
+        top: -20px;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 10px 25px;
+    }
+</style>
+<link rel="stylesheet" href="review.css">
+<!--Stylesheet--------------------------->
+<link rel="stylesheet" href="css_style.css">
+<!--Fav-icon------------------------------>
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<!--poppins-font-family------------------->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--using-Font-Awesome-------------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="banner">
+        <nav>
+            <ul>
+                <!--block-->
+        <nav>
+        <div class="logo">
+            <a href="about_us.html"><img src="even_better_logo.jpg" alt="logo"></a>
+        </div>
+    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="finale.html"><b>About</b></a></li>
+                <li><a href="review.html"><b>Review</b></a></li>
+                <li><a href="sign_inn.html"><b>Sign in</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Testimonials------------------->
+    <section id="testimonials">
+        <!--heading--->
+        <div class="testimonial-heading">
+            <span>Reviews</span>
+            <h1>BG Buy Reviews</h1>
+        </div>
+        <!--testimonials-box-container------>
+        <div class="testimonial-box-container">
+            <!--BOX-1-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="review_photo/lala.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Lala</strong>
+                            <span>@LAAAAAA</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+            <!--BOX-2-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="review_photo/florida.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Florida man</strong>
+                            <span>@I_love_Florida</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+            <!--BOX-3-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="review_photo/craycray.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Delulu_Asf</strong>
+                            <span>@ImDelusional</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+            <!--BOX-4-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="review_photo/hehe.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Michael Jackson</strong>
+                            <span>@ImBackFromTheDead</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+</body>
+</html>

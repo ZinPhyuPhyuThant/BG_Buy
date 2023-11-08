@@ -1,0 +1,12 @@
+    iframe {
+            border: none;
+            margin-top: 66px;
+        }
+
+        .this_txt {
+            text-align: center;
+            color: white;
+            background-color: rgb(136, 128, 117) ;
+            padding: 15px;
+            height: 200px 200px;
+        }
